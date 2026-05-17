@@ -65,7 +65,7 @@ export function draw(varor){
             const favoriteButton = document.createElement("img");
             searchOption.appendChild(favoriteButton);
             favoriteButton.classList.add("favoriteButton");
-            favoriteButton.src = "bilder/icons/minus.png";
+            favoriteButton.src = "../bilder/icons/minus.png";
             favoriteButton.style.cursor = "pointer";
             favoriteButton.alt = "ta bort från varukorg";
 
