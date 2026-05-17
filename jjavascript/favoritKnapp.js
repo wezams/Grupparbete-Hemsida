@@ -28,10 +28,10 @@ productWrapperElementParents.forEach(product => {
         }
     });
     if (found){
-        product.buttonElement.src = "../bilder/icons/favoritKnapp/fylldFavorit.png"
+        product.buttonElement.src = "bilder/icons/favoritKnapp/fylldFavorit.png"
     }
     else{
-        product.buttonElement.src = "../bilder/icons/favoritKnapp/tomFavorit.png"
+        product.buttonElement.src = "bilder/icons/favoritKnapp/tomFavorit.png"
     }
 });
 });
