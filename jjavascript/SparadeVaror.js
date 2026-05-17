@@ -22,13 +22,13 @@ function addSparadeVaror(productArray){
             favoritKnappar.forEach(element => {
                 const parentArticle = element.closest("article");
                 if (obj.nameElement == parentArticle.querySelector('.name').innerText){
-                    element.src = "bilder/icons/favoritKnapp/tomFavorit.png";
+                    element.src = "../bilder/icons/favoritKnapp/tomFavorit.png";
                     if (obj.origin == "javascript"){
                         productArray.origin.parentNode.parentNode.removeChild(productArray.origin.parentNode);
                     }
                 }
             });
-            productArray.button.src = "bilder/icons/favoritKnapp/tomFavorit.png"
+            productArray.button.src = "../bilder/icons/favoritKnapp/tomFavorit.png"
         }
     });
     }
